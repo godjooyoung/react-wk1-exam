@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.TodoCards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width : 1200px;
+  margin: 0 auto;
+}
+
+.TodoCard {
+  border-radius: 10%;
+  width: 200px;
+  height: 160px;
+  border : 1px solid seagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin : 5px;
+  padding : 10px;
+  word-break:break-all;
+  white-space:pre-line;
+  overflow: hidden;
+}
